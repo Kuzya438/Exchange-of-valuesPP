@@ -1,14 +1,14 @@
 #include <iostream>
 #include <cstdlib>
 
-void swap(int& a, int& b) {
+void swap(double& a, double& b) {
 	a += b;
 	b = a - b;
 	a -= b;
 }
 
 int main() {
-	int a = 5, b = 8;
+	double a = 5.6, b = 8.25;
 
 	std::cout << "a = " << a << ", b = " << b << std::endl;
 
